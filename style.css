@@ -13,3 +13,33 @@ body{
     margin: 0 auto;
 }
 
+.flex-container{
+    display: flex;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    flex-flow: row;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box{
+    height: 100px;
+    flex: 0 0 100px;
+}
+
+.one{
+    background-color: red;
+}
+
+.two{
+    background-color: blue;
+}
+
+.three{
+    background-color: green;
+}
+
+
+
